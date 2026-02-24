@@ -4,10 +4,10 @@
   "codeowners": ["@adix992"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://github.com/adix992/SongBPM",
+  "documentation": "https://github.com/adix992/ha-songbpm-26",
   "integration_type": "hub",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/adix992/SongBPM/issues",
-  "requirements": ["beautifulsoup4", "aiohttp"],
-  "version": "1.1.0"
+  "issue_tracker": "https://github.com/adix992/ha-songbpm-26/issues",
+  "requirements": [],
+  "version": "1.0.0"
 }
