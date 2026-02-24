@@ -1,1 +1,54 @@
+{
+    "config": {
+        "title": "Song BPM",
+        "step": {
+            "user": {
+                "description": "Setup Song BPM",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            },
+            "edit": {
+                "description": "Setup Song BPM",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
 
+        },
+        "error": {
+            "missing data options handler": "Option handler failed",
+            "no_valid_settings": "No valid settings check in ha config."
+        }
+    },
+    "options": {
+        "step": {
+            "edit": {
+                "description": "Setup Song BPM",
+                "data": {
+                    "username": "Username",
+                    "password": "Password"
+                }
+            }
+        },
+        "error": {
+            "missing data options handler": "Option handler failed",
+            "no_valid_settings": "No valid settings check in ha config."
+        }
+    },
+    "services": {
+        "get_song_bpm": {
+            "name": "get_song_bpm",
+            "description": "Get the BPM of a song",
+            "fields": {
+                "song": {
+                    "name": "song",
+                    "description": "Name and artist of the song"
+                }
+            }
+
+        }
+    }
+}
