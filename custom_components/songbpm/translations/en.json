@@ -1,54 +1,31 @@
 {
     "config": {
-        "title": "Song BPM",
         "step": {
             "user": {
-                "description": "Setup Song BPM",
+                "title": "SongBPM Configuration",
+                "description": "Please enter your GetSongKEY API key and select the media player you want to monitor.",
                 "data": {
-                    "username": "Username",
-                    "password": "Password"
-                }
-            },
-            "edit": {
-                "description": "Setup Song BPM",
-                "data": {
-                    "username": "Username",
-                    "password": "Password"
+                    "api_key": "API Key",
+                    "media_player": "Media Player"
                 }
             }
-
         },
         "error": {
-            "missing data options handler": "Option handler failed",
-            "no_valid_settings": "No valid settings check in ha config."
+            "cannot_connect": "Failed to connect",
+            "invalid_auth": "Invalid authentication",
+            "unknown": "Unexpected error"
         }
     },
     "options": {
         "step": {
-            "edit": {
-                "description": "Setup Song BPM",
+            "init": {
+                "title": "SongBPM Options",
+                "description": "Update your configuration for SongBPM.",
                 "data": {
-                    "username": "Username",
-                    "password": "Password"
+                    "api_key": "API Key",
+                    "media_player": "Media Player"
                 }
             }
-        },
-        "error": {
-            "missing data options handler": "Option handler failed",
-            "no_valid_settings": "No valid settings check in ha config."
-        }
-    },
-    "services": {
-        "get_song_bpm": {
-            "name": "get_song_bpm",
-            "description": "Get the BPM of a song",
-            "fields": {
-                "song": {
-                    "name": "song",
-                    "description": "Name and artist of the song"
-                }
-            }
-
         }
     }
 }
